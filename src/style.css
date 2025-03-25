@@ -181,6 +181,7 @@ section,
 .article-title,
 .section-title {
   color: var(--clr-primary-500);
+  padding-bottom: 30px;
 }
 
 .article-title {
