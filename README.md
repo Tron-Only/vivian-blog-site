@@ -1,24 +1,53 @@
-# JAMStack personal blog - starter files
 
-These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.
+# 🚀 Aunt Vivian's Fabulous Blog 
 
-The provided files are finished pages using regular HTML and CSS. The HTML files can be broken down into peices, and used to build out the different templates and partial files using a templating language of your choice.
+*A static blog so smooth, even your grandma could run it (but it's built for my cool aunt).*  
 
-The styling of the pages is already complete. That said, the `design-files` folder contains both a Figma file, and .jpg of a design if you want to try to build it from scratch. You do not need to use this design at all either, it depends on how you wish to approach the challenge.
+![Eleventy + Decap CMS = Magic](https://media.giphy.com/media/xT5LMGupUKCHb7DnFu/giphy.gif)
 
-The `src` folder contains files so that you can get your project up and running without worrying about content for posts/articles. That folder contains:
+## ✨ Features  
+- **Blazing fast** ⚡ (No WordPress bloat here!)  
+- **Aunt-approved CMS** ✏️ (Decap CMS makes editing *stupid simple*)  
+- **100% Free** 🤑 (Hosted on Netlify, because budgets matter)  
+- **Responsive AF** 📱 (Looks good on a potato screen)  
 
-- HTML files to use as a base for the different page layouts. These can be turned into the templates that will be used.
-- CSS file for styling the pages
-- 5 blog articles in the `blog` folder
-- images and a logo in the `assets` folder
+## 🛠️ Tech Stack  
+- [Eleventy (11ty)](https://www.11ty.dev/) - Static site wizardry  
+- [Decap CMS](https://decapcms.org/) - So easy, Aunt Vivian won’t call you for tech support  
+- [Netlify](https://www.netlify.com/) - For hosting and auto-deploys (aka magic)  
+- HTML/CSS - Old school, but it works (Kevin Powell would approve)  
 
-The articles are written in Markdown, and include Front Matter. Depending on the Static Site Generator you use, it is possible that you will have to modify these a little if you wish to use them. 
+## 🏗️ How to Steal... Err, *Use* This  
+1. **Clone this repo**  
+   ```bash
+   git clone https://github.com/Tron-Only/vivian-blog-site.git
+   ```
+2. **Install the goodies**  
+   ```bash
+   npm install
+   ```
+3. **Run it locally**  
+   ```bash
+   npx @11ty/eleventy --serve
+   ```
+4. **Customize**  
+   - Edit `src/admin/config.yml` to tweak the CMS.  
+   - Replace `src/posts/*.md` with your aunt’s wisdom(Or when you deploy it use the www.randomdomain.xxx/admin to use the CMS).  
 
-## DevProjects Challenge
+## 🤔 Why This Exists  
+Because my aunt wanted a blog site, and I refused to install WordPress(Personal Hatred). Mission accomplished.  
 
-As mentioned, these files are here to help get started with a DevProjects challenge. Please visit the [challenge page](#) to learn more about the challenge.
+## 🎁 Deploy Your Own  
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Tron-Only/vivian-blog-site)  
 
-## Tutorial
+*-click deploy* (because we’re lazy geniuses).  
 
-You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+---
+
+📜 **License**: [MIT](LICENSE) (Do whatever, just don’t blame me).  
+
+🐛 **Found a bug?** [Open an issue](https://github.com/Tron-Only/vivian-blog-site/issues) (or keep it secret, keep it safe).  
+
+---
+
+*Built with ❤️, caffeine, and occasional swearing.*  
